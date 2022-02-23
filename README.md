@@ -22,9 +22,9 @@
 
 # Table structure
 
-> > Table
 > 행(column) `how much left to right`
 > 열(row) `(how much top to down)`
+> > Table
 
 # mysql create table 
 
