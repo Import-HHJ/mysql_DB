@@ -37,7 +37,7 @@ tip : use cheatsheet which is code somebody already made
  - MYSQL create topic table
 
 
-
+```
     mysql> CREATE TABLE topic(
 
     ->  id INT(11) NOT NULL AUTO_INCREMENT,
@@ -53,7 +53,7 @@ tip : use cheatsheet which is code somebody already made
     ->  profile VARCHAR(100) NULL,
 
     ->  PRIMARY KEY(id));
-
+```
 
 ---
 
