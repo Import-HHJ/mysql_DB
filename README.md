@@ -58,7 +58,7 @@ TEXT : just can insert a lot of value
 
 ---
 
-# mysql INSERT 
+# mysql INSERT (To create row)
 
 ---
 
@@ -87,7 +87,7 @@ Example
 
 DESC TABLE : describe and depict the table
 
-# mysql SELECT
+# mysql SELECT (To show the database)
 
 ---
 
@@ -102,7 +102,43 @@ Example
 
 `SELECT id, topic, Tcreated, creater FROM topic WHERE creater = "HHJ" ORDER BY id DESC LIMIT 2;`
 
-ORDER BY [something] DESC :  mean sorted table great to low
+- ORDER BY [something] DESC :  mean sorted table great to low
 
+
+# mysql UPDATE (To update row)
+
+---
+
+how to use UPDATE syntax
+
+`UPDATE [table] SET Column1=..., Column2=... (WHERE [condition])`
+
+
+---
+
+Example
+
+` UPDATE topic SET topic = "MYSQL", description = "MYSQL is ..." WHERE id=1;`
+
+- You don't have to use where if you want to change all
+
+
+# mysql DELETE (To delete row)
+
+---
+
+how to use DELETE syntax
+
+
+`DELETE FROM[table] (WHERE)`
+
+
+---
+
+Example
+
+`DELETE FROM topic WHERE id=7;`
+
+- You don't have to use if you want to delete all row in table
 
 
