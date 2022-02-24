@@ -23,9 +23,10 @@ Example. (Duplication : creater and profile)
 
 ## In relational database, it can join each tables
 
-- New topic table
-
 ---
+
+- **New topic table**
+
 
 | id | title      | description       | Tcreated            | author_id |
 |----|------------|-------------------|---------------------|-----------|
@@ -39,9 +40,8 @@ Example. (Duplication : creater and profile)
 
 ---
 
-- Author table
+- **Author table**
 
----
 
 | id | name  | profile       |
 |----|-------|---------------|
@@ -52,5 +52,7 @@ Example. (Duplication : creater and profile)
 
 ---
 
-+ RENAME : RENAME [(table, database ...)] [before_name] TO [after_name]
+_RENAME : RENAME [(table, database ...)] [before_name] TO [after_name]_
+
+---
 
