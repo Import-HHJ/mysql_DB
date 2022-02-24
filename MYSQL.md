@@ -36,7 +36,7 @@ tip : use cheatsheet which is code somebody already made
 
  - MYSQL create topic table
 
- mysql> CREATE TABLE topic(
+   mysql> CREATE TABLE topic(
 
     ->  id INT(11) NOT NULL AUTO_INCREMENT,
 
