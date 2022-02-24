@@ -36,16 +36,22 @@ tip : use cheatsheet which is code somebody already made
 
  - MYSQL create topic table
 
- `mysql> CREATE TABLE topic(
+ mysql> CREATE TABLE topic(
+
     ->  id INT(11) NOT NULL AUTO_INCREMENT,
+
     ->  topic VARCHAR(100) NOT NULL,
+
     ->  description TEXT NULL,
+
     ->  Tcreated DATETIME NOT NULL,
+
     ->  creater VARCHAR(30) NULL,
+
     ->  profile VARCHAR(100) NULL,
+
     ->  PRIMARY KEY(id));
-Query OK, 0 rows affected, 1 warning (0.13 sec)
-`
+
 
 ---
 
